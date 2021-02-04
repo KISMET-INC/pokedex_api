@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border-radius:20px;
+    font-family: 'Bebas Neue';
+
+}
+
+#CONTAINER {
+    padding-top: 10px;
+    padding-left: 20px;
+    width: 840px;
+    height:630px;
+    margin: 0px auto;
+    background-color: #e8ded2;
+}
+p.sig {
+    color:#056676;
+    text-align:right;
+    margin-bottom: 20px;
+    padding-right: 50px;
+    height: 0px;
+}
+
+#content{
+    display:flex;
+    justify-content: space-between;
+    padding: 0px 25px;
+    width: 800px;
+    height: 575px;
+    background-color: grey;
+}
+.selection_box {
+    width: 475px;
+    height: 475px;
+}
+
+img.select{
+    padding: 0px 5px 5px 0px;
+    margin:10px;
+    width: 75px;
+    height: 75px;
+}
+.info_card { 
+    transform: rotate(5deg);
+    margin-top: 30px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 30px;
+    width: 800px;
+    height:500px;
+    border: 2px solid #056676;
+    box-shadow:  rgba(0, 0, 0, 0.171) 5px 3px;
+    background:linear-gradient(#a3d2ca 90%, #5eaaa8 )
+}
+
+h1.name {
+    width:250px;
+    font-size: 30px;
+    text-align:center;
+}
+h1.title {
+    color:rgba(149, 0, 0, 0.05);
+    font-size: 150px;
+    display: block;
+    z-index: 0px;
+    width:0px;
+}
+
+.info_card h1.name {
+    font-size: 50px;
+}
+
+.info_card .info_content {
+    color:black;
+    z-index:0;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: -10px;
+    margin-bottom: 30px;
+    box-shadow: inset rgba(0, 0, 0, 0.171) 5px 3px;
+    background-color: grey;
+}
+
+.info_content p {
+    z-index:0;
+    height: 3px;
+}
+
+span {
+    color: darkred
+}
+
+img.high_quality {
+    z-index: 1;
+    margin-top: -20px;
+    height: 250px;
+    width:250px;
+}
+
+.info_card .info_content{
+    margin-top: -35px;
+    width:100%;
+    text-align:left;
+}
+
+.left {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+p.flavor {
+    font-style: italic;
+    margin-bottom:40px;
+    height:40px;
+    width:250px;
+}
+button {
+    border-radius: 15px;
+    margin-top: 20px;
+    border: none;
+    width:300px;
+    height:40px;
+    border: 2px solid #056676;
+    background:linear-gradient(#a3d2ca, #5eaaa8 )
+}
